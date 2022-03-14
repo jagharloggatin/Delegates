@@ -1,11 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31624.102
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates", "Delegates\Delegates.csproj", "{92B70E44-E236-4C40-A55C-55D1192EA22F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegates", "Delegates\Delegates.csproj", "{92B70E44-E236-4C40-A55C-55D1192EA22F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MulticastDeligates", "MulticastDeligates\MulticastDeligates.csproj", "{94CDFD7B-398D-4841-AE5D-63B20F6522BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MulticastDeligates", "MulticastDeligates\MulticastDeligates.csproj", "{94CDFD7B-398D-4841-AE5D-63B20F6522BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anonymous methods", "Anonymous methods\Anonymous methods.csproj", "{FA0895BF-3DA8-4DD4-BE1E-0FC267E3FA77}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UseOfDelegates", "UseOfDelegates\UseOfDelegates.csproj", "{2C8EBEE5-91D6-4DA6-8411-EEB01242EB99}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegateExample1", "DelegateExample1\DelegateExample1.csproj", "{5393886B-054A-41C6-A6F7-40AF1AFA6FEB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegateExample2Multicast", "DelegateExample2Multicast\DelegateExample2Multicast.csproj", "{148E8741-39F6-4785-9A7D-E1DF2BED241B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegatesExample3", "DelegatesExample3\DelegatesExample3.csproj", "{12B021D6-EB59-4598-9CA4-0AB717264019}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuncExample1", "DelegatesExample4\FuncExample1.csproj", "{AE71CBA9-5F74-4531-AA36-A7C722009326}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +33,30 @@ Global
 		{94CDFD7B-398D-4841-AE5D-63B20F6522BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94CDFD7B-398D-4841-AE5D-63B20F6522BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94CDFD7B-398D-4841-AE5D-63B20F6522BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA0895BF-3DA8-4DD4-BE1E-0FC267E3FA77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA0895BF-3DA8-4DD4-BE1E-0FC267E3FA77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA0895BF-3DA8-4DD4-BE1E-0FC267E3FA77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA0895BF-3DA8-4DD4-BE1E-0FC267E3FA77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C8EBEE5-91D6-4DA6-8411-EEB01242EB99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C8EBEE5-91D6-4DA6-8411-EEB01242EB99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C8EBEE5-91D6-4DA6-8411-EEB01242EB99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C8EBEE5-91D6-4DA6-8411-EEB01242EB99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5393886B-054A-41C6-A6F7-40AF1AFA6FEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5393886B-054A-41C6-A6F7-40AF1AFA6FEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5393886B-054A-41C6-A6F7-40AF1AFA6FEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5393886B-054A-41C6-A6F7-40AF1AFA6FEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{148E8741-39F6-4785-9A7D-E1DF2BED241B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{148E8741-39F6-4785-9A7D-E1DF2BED241B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{148E8741-39F6-4785-9A7D-E1DF2BED241B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{148E8741-39F6-4785-9A7D-E1DF2BED241B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12B021D6-EB59-4598-9CA4-0AB717264019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12B021D6-EB59-4598-9CA4-0AB717264019}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12B021D6-EB59-4598-9CA4-0AB717264019}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12B021D6-EB59-4598-9CA4-0AB717264019}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE71CBA9-5F74-4531-AA36-A7C722009326}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE71CBA9-5F74-4531-AA36-A7C722009326}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE71CBA9-5F74-4531-AA36-A7C722009326}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE71CBA9-5F74-4531-AA36-A7C722009326}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
