@@ -1,41 +1,40 @@
 ﻿
-Action<string, string>[] Action_test = new Action<string, string>[3];
+Action<int>[] action_test = new Action<int>[3];
 
-Action_test[0] = myAction;
-Action_test[0] += myAction;
-Action_test[0] += myAction;
-Action_test[1] = myAction2;
-Action_test[1] += myAction2;
-Action_test[1] += myAction2;
-Action_test[2] = myAction3;
-Action_test[2] += myAction3;
-Action_test[2] += myAction3;
+action_test[0] = myAction;
+action_test[0] += myAction;
+action_test[0] += myAction;
+action_test[1] = myAction2;
+action_test[1] += myAction2;
+action_test[1] += myAction2;
+action_test[2] = myAction3;
+action_test[2] += myAction3;
+action_test[2] += myAction3;
 
 //Martins exempel
 //Console.WriteLine(func_test[i](i));
 
-for (int i = 0; i < Action_test.Length; i++)
+for (int i = 0; i < action_test.Length; i++)
 {
-    Console.WriteLine(Action_test[i]("Jonathan"));
+    Console.WriteLine(action_test[i](i));
 }
 
-string myAction(string i)
+string myAction(int i)
 {
     return $"Hej {i}";
 }
 
-string myAction2(string i)
+string myAction2(int i)
 {
     return $"Goodbye {i}";
 }
 
-string myAction3(string i)
+string myAction3(int i)
 {
     return $"Au Reviour! {i}";
 }
 
 Console.ReadKey();
-
 
 
 Func<string, string>[] func_test = new Func<string, string>[3];
